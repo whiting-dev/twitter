@@ -9,6 +9,11 @@ export default {
       type: 'string',
     },
     {
+      name: 'URL',
+      title: 'URL to share',
+      type: 'url',
+    },
+    {
       name: 'blockTweet',
       title: 'Block Tweet',
       description: 'ADMIN Controls: Toggle if content is deemed inaapropriate',
