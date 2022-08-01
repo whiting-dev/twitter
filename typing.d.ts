@@ -9,7 +9,7 @@ export interface Tweet extends TweetBody {
 
 export type TweetBody = {
   text: string
-  URL: string
+  URL?: string
   username: string
   profileImg: string
   image?: string
